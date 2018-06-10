@@ -1,0 +1,20 @@
+global-styles:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Oswald:400,700: { type: external }
+      //cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css: { type: external }
+      css/style.css: {}
+      css/print.css: { media: print }
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+
+homepage-banner:
+  css:
+    component:
+      css/component.banner.css: {}
+  js:
+    js/particles.min.js: {}
+    js/particles.init.js: {}
+    js/banner.js: {}

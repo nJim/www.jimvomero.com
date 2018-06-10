@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Supporting code for the custom homepage module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function custom_homepage_theme() {
+  return [
+    'custom_homepage' => [],
+  ];
+}

@@ -1,0 +1,7 @@
+# Route for the site's custom homepage.
+custom_homepage.homepage_content:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\custom_homepage\Controller\HomepageController::content'
+  requirements:
+    _permission: 'access content'

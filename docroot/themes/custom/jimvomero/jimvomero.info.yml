@@ -4,7 +4,7 @@ description: 'Jims personal website theme.'
 package: Custom
 core: 8.x
 libraries:
-  - jimvomero/global-styling
+  - jimvomero/global-styles
  
 base theme: classy
 

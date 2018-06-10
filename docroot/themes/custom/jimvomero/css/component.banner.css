@@ -1,0 +1,65 @@
+/**
+ * Homepage Banner Styles
+ */
+.banner {
+  height: 100vh;
+  position: relative;
+}
+.banner-background {
+  background: transparent url('../images/banner.jpg') no-repeat top center;
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+@media (max-width: 600px) {
+  .banner-background {
+    background-attachment: scroll;
+  }
+}
+
+/*** Homepage Banner Text ***/
+.banner-text {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 2%;
+  z-index: 20;
+}
+.banner-text-headline {
+  font-size: 20vw;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: type 4s steps(60, end);
+}
+.banner-text-tagline {
+  font-size: 5vw;
+}
+@media (min-width: 600px) {
+  .banner-text-headline {
+    font-size: 7.5rem;;
+  }
+  .banner-text-tagline {
+    font-size: 1.875rem;
+  }
+}
+
+/*** Particles Effect ***/
+canvas {
+  display: block;
+  vertical-align: bottom;
+  min-height: 100vh;
+}
+#particles-js{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
