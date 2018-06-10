@@ -1,0 +1,20 @@
+name: 'Jim Vomero'
+type: theme
+description: 'Jims personal website theme.'
+package: Custom
+core: 8.x
+libraries:
+  - jimvomero/global-styling
+ 
+base theme: classy
+
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  page_top: 'Page top'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
