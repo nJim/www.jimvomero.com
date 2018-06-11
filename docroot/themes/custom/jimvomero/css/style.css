@@ -37,3 +37,26 @@ h2.small {
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
+
+/*** Footer ***/
+footer {
+  height: 100vh;
+  position: relative;
+}
+.footer-background {
+  background: transparent url('../images/footer.jpg') no-repeat top center;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: 75% center;
+  min-height: 101vh;
+}
+@media (max-width: 600px) {
+  .footer-background {
+    background-attachment: scroll;
+  }
+}
