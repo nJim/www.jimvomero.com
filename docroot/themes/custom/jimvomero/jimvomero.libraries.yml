@@ -17,4 +17,13 @@ homepage-banner:
   js:
     js/particles.min.js: {}
     js/particles.init.js: {}
-    js/banner.js: {}
+    js/homepage-banner.js: {}
+
+headline-band:
+  css:
+    component:
+      css/component.headline-band.css: {}
+  js:
+    js/jquery.lazylinepainter.js: {}
+    js/headline-band-icons.js: {}
+    js/headline-band.js: {}
