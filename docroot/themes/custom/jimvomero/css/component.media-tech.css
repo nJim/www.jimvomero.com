@@ -1,0 +1,93 @@
+/**
+ * Media Band - Technologies
+ */
+.technology-band {
+  background-color: #EFEFE3;
+}
+.technology-band .media-band-image {
+  background:
+    url(../images/technology-arrow-mobile.svg) no-repeat,
+    url(../images/technology.jpg) no-repeat;
+  background-size: 114%, cover;
+  background-position: 50% 101%, 80%;
+}
+@media (min-width: 600px) {
+  .technology-band .media-band-image {
+    background:
+      url('../images/technology-arrow.svg') no-repeat,
+      url('../images/technology.jpg') no-repeat;
+    background-size: 7%, cover;
+    background-position: -1px 50%, center;
+  }
+}
+.technology-band-icons {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.technology-band-icons .icon {
+  width: 27%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 3%;
+  background: url('../images/technology-icons.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.technology-band-icons .icon.html { background-position-y: 0; }
+.technology-band-icons .icon.css  { background-position-y: 20.1%; }
+.technology-band-icons .icon.js   { background-position-y: 40.2%; }
+.technology-band-icons .icon.git  { background-position-y: 60.3%; }
+.technology-band-icons .icon.php  { background-position-y: 80.4%; }
+.technology-band-icons .icon.jq   { background-position-y: 100.5%; }
+
+/********************************************/
+/******** Homepage Feature 5: Social ********/
+/********************************************/
+.social-band {
+  background-color: #3e5136;
+  text-align: center;
+}
+.social-band .media-band-image {
+  background:
+          url(../images/social-arrow-mobile.svg) no-repeat,
+          url(../images/social.jpg) no-repeat;
+  background-size: 114%, cover;
+  background-position: 50% 102%, 55%;
+}
+.social-band .media-band-content {
+  border-bottom: solid 2px #3e5136;
+}
+@media (min-width: 600px) {
+  .social-band {
+    text-align: left;
+  }
+  .social-band .media-band-image {
+    background:
+      url('../images/social-arrow.svg') no-repeat,
+      url('../images/social.jpg') no-repeat;
+    background-size: 7%, cover;
+    background-position: 101% 52%, right center;
+  }
+  .social-band .media-band-content {
+    border-bottom: none;
+    border-left: solid 2px #3e5136;
+  }
+}
+.social-band h2.small {
+  color: #EFEFE3;
+}
+.social-band a {
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.social-band a .dotted {
+  border-bottom: dotted 1px #EFEFE3;
+}
+.social-band a .dotted:hover {
+  border-bottom: solid 1px #EFEFE3;
+}

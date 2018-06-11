@@ -1,0 +1,25 @@
+/**
+ * Media Band General Styles
+ */
+.media-band {
+  display: table;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.media-band-image {
+  display: table-cell;
+  width: 66.66%;
+  height: 300px;
+}
+.media-band-content {
+  display: table-footer-group;
+  padding: 50px 25px;
+}
+@media (min-width: 600px) {
+  .media-band {
+    padding-bottom: 0;
+  }
+  .media-band-content {
+    display: table-cell;
+  }
+}

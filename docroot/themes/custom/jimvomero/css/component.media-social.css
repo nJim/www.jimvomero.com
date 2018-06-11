@@ -1,0 +1,50 @@
+/**
+ * Media Band - Social and Links
+ */
+.social-band {
+  background-color: #3e5136;
+  text-align: center;
+}
+.social-band .media-band-image {
+  background:
+    url(../images/social-arrow-mobile.svg) no-repeat,
+    url(../images/social.jpg) no-repeat;
+  background-size: 114%, cover;
+  background-position: 50% 102%, 55%;
+}
+.social-band .media-band-content {
+  border-bottom: solid 2px #3e5136;
+}
+@media (min-width: 600px) {
+  .social-band {
+    text-align: left;
+  }
+  .social-band .media-band-image {
+    background:
+      url('../images/social-arrow.svg') no-repeat,
+      url('../images/social.jpg') no-repeat;
+    background-size: 7%, cover;
+    background-position: 101% 52%, right center;
+  }
+  .social-band .media-band-content {
+    border-bottom: none;
+    border-left: solid 2px #3e5136;
+  }
+}
+.social-band h2.small {
+  color: #EFEFE3;
+}
+.social-band a {
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.social-band a .dotted {
+  border-bottom: dotted 1px #EFEFE3;
+}
+.social-band a .dotted:hover {
+  border-bottom: solid 1px #EFEFE3;
+}

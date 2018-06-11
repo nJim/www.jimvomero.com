@@ -18,6 +18,8 @@ homepage-banner:
     js/particles.min.js: {}
     js/particles.init.js: {}
     js/homepage-banner.js: {}
+  dependencies:
+    - core/jquery
 
 headline-band:
   css:
@@ -27,3 +29,12 @@ headline-band:
     js/jquery.lazylinepainter.js: {}
     js/headline-band-icons.js: {}
     js/headline-band.js: {}
+  dependencies:
+    - core/jquery
+
+media-band:
+  css:
+    component:
+      css/component.media-band.css: {}
+      css/component.media-tech.css: {}
+      css/component.media-social.css: {}
