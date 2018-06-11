@@ -1,0 +1,20 @@
+uuid: 514b8c22-b055-4115-9db2-94638527b2df
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jimvomero
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: jimvomero_page_title
+theme: jimvomero
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

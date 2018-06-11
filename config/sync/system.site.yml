@@ -1,0 +1,14 @@
+uuid: 8ce018c3-68de-4336-8d77-d35f5587c833
+name: 'Jim Vomero Web Developer'
+mail: jamesvomero@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

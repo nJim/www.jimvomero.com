@@ -1,0 +1,22 @@
+uuid: 89c6217f-22d2-4c72-8d3e-5912c3c283bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jimvomero
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: jimvomero_content
+theme: jimvomero
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

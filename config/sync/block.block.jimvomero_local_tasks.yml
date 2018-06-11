@@ -1,0 +1,22 @@
+uuid: a2983a3e-4d8d-4ce8-8389-f2b7122f531e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jimvomero
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: jimvomero_local_tasks
+theme: jimvomero
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
